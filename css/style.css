@@ -8,13 +8,6 @@ body{
 h1 {
 	color: #f0f696;
 }
-/*Online*/
-/*body{
-	background-color: #0e153a;
-}
-h1 {
-	color: #28c7fa;
-}*/
 .top-section {
 	max-width: 95%;
 	margin: auto;
@@ -24,3 +17,26 @@ h1 {
 	text-align: center;
 	font-size: 28px;
 }
+.two-divs {
+	display: flex;
+	justify-content: space-around;
+}
+.person{
+	width: 45%;
+	margin: auto;
+}
+.person img{
+	max-width: 100%;
+}
+.present {
+	width: 45%;
+	margin: auto;
+}
+
+/*Online*/
+/*body{
+	background-color: #0e153a;
+}
+h1 {
+	color: #28c7fa;
+}*/
