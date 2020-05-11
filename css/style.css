@@ -1,3 +1,26 @@
 html {
 	scroll-behavior: smooth;
 }
+/*IRL*/
+body{
+	background-color: #f5b5fc;
+}
+h1 {
+	color: #f0f696;
+}
+/*Online*/
+/*body{
+	background-color: #0e153a;
+}
+h1 {
+	color: #28c7fa;
+}*/
+.top-section {
+	max-width: 95%;
+	margin: auto;
+}
+.title {
+	font-family: 'Titan One', cursive;
+	text-align: center;
+	font-size: 28px;
+}
