@@ -37,23 +37,23 @@ h1 {
 	justify-content: space-between;
 	align-items: center;
 }
-button {
-	/*margin-bottom: 50px;*/
-}
+
 .textbox {
-	border: 1px solid black;
+	border: 2px solid black;
 	width: 80%;
 	margin: auto;
 }
 .textbox h2 {
 	text-align: center;
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
 }
 /*Online*/
 /*body{
-	background-color: #0e153a;
+	background-color: #15202B;
 }
 h1 {
-	color: #28c7fa;
+	color: #1CA1F2;
 }*/
 .switch {
 	display: inline-block;
@@ -67,7 +67,7 @@ h1 {
   }
   
   .slider {
-	background-color: #ccc;
+	background-color: #F0F696;
 	bottom: 0;
 	cursor: pointer;
 	left: 0;
@@ -89,7 +89,7 @@ h1 {
   }
   
   input:checked + .slider {
-	background-color: #66bb6a;
+	background-color: #1CA1F2;
   }
   
   input:checked + .slider:before {
