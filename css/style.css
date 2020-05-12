@@ -4,9 +4,17 @@ html {
 /*IRL*/
 body{
 	background-color: #f5b5fc;
+	margin: 0px;
 }
 h1 {
 	color: #f0f696;
+}
+.middle-section{
+	background-color: #F0F696;
+	/*color: #1CA1F2;*/
+	/*background-color: #f5b5fc;*/
+	color: black;
+	margin-top: 20px;
 }
 .top-section {
 	max-width: 95%;
@@ -63,7 +71,51 @@ h1 {
 .onlineshow .textbox h2 {
 	border-bottom: 2px solid white;
 }
-
+.issue {
+	padding: 0px 50px 20px 50px;
+}
+.issue h4 {
+	font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.issue ul {
+	list-style-type: square;
+}
+.issue li {
+	line-height: 120%;
+	font-size: 20px;
+}
+.bottom-section{
+	padding-bottom: 30px;
+}
+.bottom-section h3{
+	color: #F0F696;
+}
+.bottom-section ul {
+    margin: 0.75em 1em;
+	padding: 0px 50px 20px 50px;
+	list-style: none;
+	color: black;
+}
+.onlinecolor .bottom-section ul {
+	color: white;
+}
+.onlinecolor .bottom-section li:before {
+	border-color: transparent white;
+}
+.bottom-section li:before { 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
 
 
 .switch {
