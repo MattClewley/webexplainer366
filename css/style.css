@@ -25,6 +25,7 @@ h1 {
 	width: 45%;
 	margin: auto;
 }
+
 .person img{
 	max-width: 80%;
 }
@@ -49,12 +50,22 @@ h1 {
 	padding-bottom: 10px;
 }
 /*Online*/
-/*body{
+.onlinecolor{
 	background-color: #15202B;
 }
-h1 {
+.onlineshow h1 {
 	color: #1CA1F2;
-}*/
+}
+.onlineshow .textbox {
+	border: 2px solid white;
+	color: white;
+}
+.onlineshow .textbox h2 {
+	border-bottom: 2px solid white;
+}
+
+
+
 .switch {
 	display: inline-block;
 	height: 34px;

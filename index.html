@@ -18,7 +18,8 @@
 
     <div class="two-divs">
       <div class="person">
-        <div><img src="images/undraw_celebrating_bol5.svg"> </div>
+        <div class="irlimage"><img src="images/undraw_celebrating_bol5.svg"></div>
+        <div class="onlineimg" style="display: none;"><img src="images/undraw_modern_life_u1ev.svg"></div>
       </div>
 
       <div class="present">
@@ -40,6 +41,16 @@
               <li>four</li>
             </ul>
           </div>
+
+          <div class="attributes" style="display: none;">
+            <ul>
+              <li>five</li>
+              <li>six</li>
+              <li>seven</li>
+              <li>eight</li>
+            </ul>
+          </div>
+
         </div>
 
       </div>
@@ -49,7 +60,19 @@
   
 
   <script>
-    
+    $('input:checkbox').change(function(){
+    if($(this).is(":checked")) {
+        $('div.top-section').addClass("onlineshow");
+        $('body').addClass("onlinecolor");
+        $('.irlimage').css('display','none');
+        $('.onlineimg').css('display','block');
+    } else {
+        $('div.top-section').removeClass("onlineshow");
+        $('body').removeClass("onlinecolor");
+        $('.irlimage').css('display','block');
+        $('.onlineimg').css('display','none');
+    }
+});
   </script>
   </body>
   </html>
