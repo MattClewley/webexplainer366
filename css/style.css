@@ -9,6 +9,9 @@ body{
 h1 {
 	color: #f0f696;
 }
+a {
+	color: inherit;
+}
 .middle-section{
 	background-color: #F0F696;
 	/*color: #1CA1F2;*/
@@ -56,6 +59,11 @@ h1 {
 	text-align: center;
 	border-bottom: 2px solid black;
 	padding-bottom: 10px;
+}
+.attributes li {
+	padding-bottom: 10px;
+	font-size: 18px;
+	padding-right: 5px;
 }
 /*Online*/
 .onlinecolor{
